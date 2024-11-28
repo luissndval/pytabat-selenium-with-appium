@@ -1,0 +1,29 @@
+desired_caps1:
+  platformName: Android
+  automationName: UiAutomator2
+  deviceName: emulator-5554  # Nombre del emulador
+  appPackage: com.android.chrome
+  appActivity: com.google.android.apps.chrome.Main
+  adbExecTimeout: 60000
+  appWaitActivity: "*"
+  language: en
+  locale: us
+  "browserName": Chrome
+
+
+desired_caps:
+  platformName: Android
+  automationName: UiAutomator2
+  deviceName: emulator-5554
+  appWaitActivity: "*"
+
+desired_caps2:
+  platformName: Android
+  automationName: UiAutomator2
+  deviceName: emulator-5554
+  browserName: Chrome
+  adbExecTimeout: 60000
+  language: en
+  locale: us
+
+
